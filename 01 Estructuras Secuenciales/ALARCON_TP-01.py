@@ -1,5 +1,5 @@
 # Ejercicio 1
-# Se utiliza el comando print para imprilir Hola Mundo!
+# Se utiliza el comando print para imprimir Hola Mundo!
 print("Hola Mundo!")
 
 # Ejercicio 2
