@@ -93,7 +93,8 @@ temperaturaCelsius = int(input("Ingresa la temperatura en grados celsius."))
 temperaturaFahrenheit = ((9/5) * temperaturaCelsius + 32)
 
 # Se imprime el resultado con un f string.
-print(f"El equivalente de {temperaturaCelsius}°C en Fahrenheit es de {temperaturaFahrenheit}")
+print(
+    f"El equivalente de {temperaturaCelsius}°C en Fahrenheit es de {temperaturaFahrenheit}")
 
 # Ejercicio 10
 # Se definen variables y se almacenan como float al poder llevar coma.
