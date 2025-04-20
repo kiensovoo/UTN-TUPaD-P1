@@ -19,11 +19,10 @@ print(media)
 
 sesgo_positivo = media > mediana < moda
 sesgo_negativo = media < mediana < moda
-sin_sesgo = media == mediana == moda
 
-if sesgo_positivo == True:
+if sesgo_positivo:
     print("Hay sesgo positivo.")
-elif sesgo_negativo == True:
+elif sesgo_negativo:
     print("Hay sesgo negativo")
 else:
     print("No hay sesgo.")
